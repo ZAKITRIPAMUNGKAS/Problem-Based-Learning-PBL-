@@ -176,8 +176,8 @@ content: '\201C';
 blockquote:after {
 content: '\201D';
 }
-#copyrights{border-top:3px solid #CCC;border-bottom:3px solid #CCC;}
-#copyrights p{ float:left; margin:10px 15px 0px 0px;}
+#copyrights{border-top:1px solid #e5e7eb;border-bottom:none;background:#f8fafc;padding:12px 16px;}
+#copyrights p{ float:none; margin:6px 0;}
 
 .resize { display:none !important; }
 
