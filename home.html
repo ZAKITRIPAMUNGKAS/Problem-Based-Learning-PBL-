@@ -4,9 +4,32 @@
 <title>KASUS PENCURIAN_LKPD</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="https://cdn.tailwindcss.com" defer></script>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-semibold" href="home.html">Hudud (Sariqah) LKPD</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="home.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Kasus 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="soal2.html">Kasus 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="soal3.html">Kasus 3</a></li>
+        <li class="nav-item"><a class="nav-link" href="soal4.html">Kasus 4</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <div class="resize"></div>
 <!-- Div Wrapper Element Starts Here -->
 <div id="Wrapper">
@@ -30,22 +53,76 @@
     <!-- Nav Element Starts Here -->
    
   </header>
-  <section>
-        <h1><a href="#">PETUNJUK LKPD :</a></h1>
+  <section class="container py-5">
+        <div class="text-center mb-4">
+          <h1 class="display-6 fw-bold">PETUNJUK LKPD</h1>
+          <p class="text-secondary">Ikuti langkah sederhana di bawah ini sebelum memulai.</p>
+        </div>
+        <ol class="list-group list-group-numbered shadow-sm">
+          <li class="list-group-item">Berdoalah sebelum mulai belajar</li>
+          <li class="list-group-item">Berkelompoklah dengan kelompok masing-masing yang telah dibagi oleh guru.</li>
+          <li class="list-group-item">Siapkan alat tulis untuk mengerjakan LKPD yang telah diberikan oleh guru</li>
+          <li class="list-group-item">Tulis Nama, Nomor Absen, dan kelas Kalian di Lembar Kerja Peserta Didik yang telah disediakan.</li>
+          <li class="list-group-item">Pilih Kasus Pencurian (<em>Sariqah</em>) di bawah ini sesuai nomor kelompok!</li>
+          <li class="list-group-item">Diskusi dan kerjakan dengan seksama bersama kelompok masing-masing</li>
+          <li class="list-group-item">Presentasikan hasil analisis kasus di depan kelas</li>
+          <li class="list-group-item">Bertanyalah kepada guru apabila ada yang kurang paham</li>
+          <li class="list-group-item">Semangat!</li>
+        </ol>
   </section>
       <!-- Article's Header Element Ends Here -->
-    <ol>
-      <li>Berdoalah sebelum mulai belajar</li>
-      <li>Berkelompoklah dengan kelompok masing-masing yang telah dibagi oleh guru.</li>
-      <li>Siapkan alat tulis untuk mengerjakan LKPD yang telah diberikan oleh guru</li>
-      <li>Tulis Nama, Nomor Absen, dan kelas Kalian di Lembar Kerja Peserta Didik yang telah disediakan.</li>
-      <li>Pilih Kasus Pencurian (<em>Sariqah) </em>di bawah ini sesuai dengan nomor kelompok kalian !</li>
-      <li>Diskusi dan Kerjakan dengan seksama bersama kelompok masing-masing</li>
-      <li>Presentasikan hasil analisis kasus Pencurian (<em>Sariqah) </em>kelompok masing-masing di depan kelas!</li>
-      <li>Bertanyalah kepada guru apabila ada yang kurang paham</li>
-      <li>Semangat....</li>
-      </ol>
-       <nav class="navigation"> <a href="home.html">Home</a> <a href="index.html">1</a> <a href="soal2.html">2</a> <a href="soal3.html">3</a> <a href="soal4.html">4</a></nav>
+      <section class="container pb-5">
+        <div class="text-center mb-4">
+          <h2 class="h4 fw-semibold">Pilih Kasus</h2>
+          <p class="text-secondary">Klik salah satu kartu untuk masuk ke halaman kasus.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="index.html" class="text-decoration-none">
+              <div class="card h-100 shadow-sm hover:shadow-md">
+                <img src="images/Gambar Pencurian 1.jpeg" class="card-img-top" alt="Kasus 1">
+                <div class="card-body">
+                  <h5 class="card-title">Kasus 1</h5>
+                  <p class="card-text small text-secondary">Sumedang: Curi brankas berisi uang dan emas.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="soal2.html" class="text-decoration-none">
+              <div class="card h-100 shadow-sm hover:shadow-md">
+                <img src="images/Gambar Pencurian 2.jpg" class="card-img-top" alt="Kasus 2">
+                <div class="card-body">
+                  <h5 class="card-title">Kasus 2</h5>
+                  <p class="card-text small text-secondary">Tasikmalaya: Pencurian kotak amal masjid.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="soal3.html" class="text-decoration-none">
+              <div class="card h-100 shadow-sm hover:shadow-md">
+                <img src="images/Gambar Pencurian 3.jpeg" class="card-img-top" alt="Kasus 3">
+                <div class="card-body">
+                  <h5 class="card-title">Kasus 3</h5>
+                  <p class="card-text small text-secondary">Baturaja: Pencurian di rumah ayah kandung.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <a href="soal4.html" class="text-decoration-none">
+              <div class="card h-100 shadow-sm hover:shadow-md">
+                <img src="images/Gambar Pencurian 4.jpg" class="card-img-top" alt="Kasus 4">
+                <div class="card-body">
+                  <h5 class="card-title">Kasus 4</h5>
+                  <p class="card-text small text-secondary">Pati: Curi pisang karena lapar.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
   <!-- Div wrapper2 ends here -->
   <!-- Footer Element Starts Here -->
   <footer id="copyrights">
