@@ -45,7 +45,7 @@ a:hover {
 /*
 Main Styles
 */
-#Wrapper{ width: 90%; margin:0px auto;}
+#Wrapper{ width: 100%; max-width: 1200px; margin:0px auto; padding: 0 16px;}
 #Wrapper2{
 	overflow:hidden;
 	border:1px dotted #ddd;
@@ -319,3 +319,8 @@ content: '\201D';
 .SUMBER {
 	color: #00F;
 }
+
+/* Utilities */
+.justify { text-align: justify; text-justify: inter-word; }
+.lead-compact { line-height: 1.7; }
+.hero-img { max-width: 160px; }
